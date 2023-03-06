@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import Questions from "../Questions/Questions";
 
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
+  <Questions />;
+};
 
-export default Home
+export default Home;

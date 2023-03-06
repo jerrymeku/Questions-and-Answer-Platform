@@ -13,17 +13,17 @@ import Signup from "./Pages/Signup/Signup";
 function App() {
   return (
     <Router>
-        <Header /> {/* Asni */} {/* Yemi */}
-        <Routes>
-          <Route path="/" element={<Home />} /> {/* Jerry */}
-          <Route path="/Questions" element={<Questions />} /> {/* Jerry */}
-          <Route path="/Login" element={<Login />} /> {/* Hana */}
-          <Route path="/Signup" element={<Signup />} /> {/* Asre */}
-          <Route path="/About" element={<About />} /> {/* Kal */}
-          <Route path="/Answer" element={<Answer />} /> {/* Mame */}
-          <Route path="/AskQuestion" element={<AskQuestion />} /> {/* Eyu */}
-        </Routes>
-        <Footer /> {/* Elc */} {/* Sule */}
+      <Header /> {/* Asni */} {/* Yemi */}
+      <Routes>
+        <Route path="/" element={<Home />} /> {/* Jerry */}
+        <Route path="/questions" element={<Questions />} /> {/* Jerry */}
+        <Route path="/Login" element={<Login />} /> {/* Hana */}
+        <Route path="/Signup" element={<Signup />} /> {/* Asre */}
+        <Route path="/About" element={<About />} /> {/* Kal */}
+        <Route path="/Answer" element={<Answer />} /> {/* Mame */}
+        <Route path="/AskQuestion" element={<AskQuestion />} /> {/* Eyu */}
+      </Routes>
+      <Footer /> {/* Elc */} {/* Sule */}
     </Router>
   );
 }
